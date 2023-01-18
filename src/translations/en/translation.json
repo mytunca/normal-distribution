@@ -1,0 +1,13 @@
+{
+  "normal_distribution": "Normal Distribution",
+  "number_of_dice": "Number Of Dice To Roll At Once",
+  "number_of_dice_rolls": "Number Of Dice Rolls",
+  "roll_dice": "ROLL THE DICE",
+  "sum_of_dice": "Sum Of Dice",
+  "mean": "Mean",
+  "median": "Median",
+  "sum": "Sum",
+  "variance": "Variance",
+  "standard_deviation": "Standard Deviation",
+  "github_link": "Project's GitHub Link"
+}

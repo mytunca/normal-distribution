@@ -1,0 +1,13 @@
+{
+  "normal_distribution": "Normal Dağılım",
+  "number_of_dice": "Bir Seferde Atılacak Zar Sayısı",
+  "number_of_dice_rolls": "Zar Atışlarının Sayısı",
+  "roll_dice": "Zarları At",
+  "sum_of_dice": "Zarların Toplamı",
+  "mean": "Ortalama",
+  "median": "Medyan (Ortanca)",
+  "sum": "Toplam",
+  "variance": "Varyans",
+  "standard_deviation": "Standart Sapma",
+  "github_link": "Projenin GitHub Bağlantısı"
+}
