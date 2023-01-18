@@ -9,5 +9,7 @@
   "sum": "Toplam",
   "variance": "Varyans",
   "standard_deviation": "Standart Sapma",
-  "github_link": "Projenin GitHub Bağlantısı"
+  "github_link": "Projenin GitHub Bağlantısı",
+  "ideal_line": "İdeal Eğri",
+  "calculations": "Hesaplanabilen Değerler"
 }

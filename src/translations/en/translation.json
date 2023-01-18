@@ -9,5 +9,7 @@
   "sum": "Sum",
   "variance": "Variance",
   "standard_deviation": "Standard Deviation",
-  "github_link": "Project's GitHub Link"
+  "github_link": "Project's GitHub Link",
+  "ideal_line": "Ideal Curve",
+  "calculations": "Calculations"
 }

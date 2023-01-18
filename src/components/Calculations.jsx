@@ -65,18 +65,18 @@ export default function Calculations({ valuesObject }) {
     },
   ]
   
-  var ztable = require('ztable');
+  /* var ztable = require('ztable');
   var zscore = -1.3452;
  
-  console.log(ztable(zscore));
-
+  console.log(ztable(zscore)); */
+  const label = t("calculations");
   return (<>
     <Typography variant="h5" gutterBottom>
-      Hesaplanabilen Değerler
+      {label}
     </Typography>
 
     <TableContainer component={Paper}>
-      <Table size="small" aria-label="Hesaplanabilen Değerler">
+      <Table size="small" aria-label={label}>
         <TableBody>
           {rows.map((row) => (
             <TableRow

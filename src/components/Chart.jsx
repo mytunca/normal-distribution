@@ -49,7 +49,7 @@ export default function Chart({values}) {
         data,
         backgroundColor: 'rgba(53, 162, 235, 0.5)',
       },
-      {
+      /* {
         type: 'line',
         label: t("ideal_line"),
         borderColor: 'rgb(255, 99, 132)',
@@ -58,7 +58,7 @@ export default function Chart({values}) {
         borderWidth: 2,
         fill: false,
         data: [462.962962962963, 1388.888888888889, 2777.777777777778, 4629.62962962963, 6944.444444444444, 9722.222222222223, 11574.074074074075, 12500, 12500, 11574.074074074075, 9722.222222222223, 6944.444444444444, 4629.62962962963, 2777.777777777778, 1388.888888888889, 462.962962962963],
-      }
+      } */
     ],
   };
   return <Bar options={options} data={obj} />;
