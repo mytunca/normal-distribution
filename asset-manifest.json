@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/normal-distribution/static/css/main.f87db60f.css",
+    "main.js": "/normal-distribution/static/js/main.0423ef8e.js",
+    "static/js/496.0320d045.chunk.js": "/normal-distribution/static/js/496.0320d045.chunk.js",
+    "index.html": "/normal-distribution/index.html",
+    "static/media/en.svg": "/normal-distribution/static/media/en.689a74410205590b5515cc6abc7c7c02.svg",
+    "static/media/tr.svg": "/normal-distribution/static/media/tr.0a906c70c7b9ba3e4f32050210683b22.svg",
+    "main.f87db60f.css.map": "/normal-distribution/static/css/main.f87db60f.css.map",
+    "main.0423ef8e.js.map": "/normal-distribution/static/js/main.0423ef8e.js.map",
+    "496.0320d045.chunk.js.map": "/normal-distribution/static/js/496.0320d045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87db60f.css",
+    "static/js/main.0423ef8e.js"
+  ]
+}
