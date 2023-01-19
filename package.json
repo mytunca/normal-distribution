@@ -1,5 +1,5 @@
 {
-  "name": "codespaces-react",
+  "name": "normal-distribution",
   "version": "0.1.0",
   "homepage": "https://mytunca.github.io/normal-distribution",
   "private": true,
@@ -19,11 +19,10 @@
     "react-i18next": "^12.1.4",
     "react-scripts": "^5.0.1",
     "universal-cookie": "^4.0.4",
-    "web-vitals": "^3.1.0",
-    "ztable": "^1.0.7"
+    "web-vitals": "^3.1.0"
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

@@ -11,5 +11,8 @@
   "standard_deviation": "Standart Sapma",
   "github_link": "Projenin GitHub Bağlantısı",
   "ideal_line": "İdeal Eğri",
-  "calculations": "Hesaplanabilen Değerler"
+  "calculations": "Hesaplanabilen Değerler",
+  "dice_sum_probabilities": "Zar Toplamı Olasılıkları",
+  "normal_distribution_curve": "Normal Dağılım Eğrisi",
+  "normal_distribution_header": "Zar 🎲 Atışlarıyla Normal (Gauss Tipi) Dağılım 📊 "
 }

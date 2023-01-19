@@ -6,7 +6,7 @@ export default function GithubButton() {
   const { t } = useTranslation();
   return (
     <Tooltip title={t("github_link")}>
-      <IconButton color="black" href="https://github.com/mytunca/normal-distribution" target="_blank">
+      <IconButton color="#6e7781" href="https://github.com/mytunca/normal-distribution" target="_blank">
         <GitHub />
       </IconButton>
     </Tooltip>

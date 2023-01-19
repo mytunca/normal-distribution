@@ -31,6 +31,8 @@ export default function MainLayout() {
     i18n.changeLanguage(cookies.get('i18next') || 'tr');
   }, [i18n])
 
+  const [numberOfDice, setNumberOfDice] = useState(1);
+  const [numberOfRolls, setNumberOfRolls] = useState(100);
   const [values, setValues] = useState({});
   
   return (
@@ -49,17 +51,26 @@ export default function MainLayout() {
             <Box sx={{ width: '100%' }}>
               <Stack spacing={2}>
                 <Paper sx={{padding: '10px'}}>
-                  <Form setValues={setValues} />
+                  <Form 
+                    setValues={setValues} 
+                    numberOfDice={numberOfDice}
+                    setNumberOfDice={setNumberOfDice}
+                    numberOfRolls={numberOfRolls}
+                    setNumberOfRolls={setNumberOfRolls}
+                  />
                 </Paper>
                 <Paper>
-                  <Calculations valuesObject={values} />
+                  <Calculations valuesObject={values} numberOfRolls={numberOfRolls} />
                 </Paper>
               </Stack>
             </Box>
           </Grid>
           <Grid item xs={4} sm={4} md={8}>
             <Paper sx={{ padding: '20px' }}>
-              <Chart type="bar" values={values} />
+              <Chart type="bar" 
+                values={values}
+                numberOfDice={numberOfDice}
+              />
             </Paper>
           </Grid>
         </Grid>

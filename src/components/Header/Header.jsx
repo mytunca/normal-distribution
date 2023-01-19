@@ -10,7 +10,7 @@ export default function Header() {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
-          {t('normal_distribution')}
+          {t('normal_distribution_header')}
         </Typography>
         <Flag />
         <GithubButton />

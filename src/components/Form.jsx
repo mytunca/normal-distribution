@@ -1,22 +1,22 @@
-import { useState } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@mui/material';
 
-export default function Form({setValues}) {
+export default function Form({setValues, numberOfDice, setNumberOfDice, numberOfRolls, setNumberOfRolls}) {
   const { t } = useTranslation();
-  const [numberOfDice, setNumberOfDice] = useState(1);
-  const [numberOfRolls, setNumberOfRolls] = useState(100);
 
   const dice = () => {
     const result = {};
+    for (let i = numberOfDice; i <= numberOfDice * 6; i++) {
+      result[i] = 0;
+    }
     for (let i = 0; i < numberOfRolls; i++) {
       let count = 0;
       for (let j = 0; j < numberOfDice; j++) {
         count += Math.ceil(Math.random() * 6)
       }
-      result[count] ? result[count]++ : result[count] = 1;
+      result[count]++;
     }
     setValues(result);
   }

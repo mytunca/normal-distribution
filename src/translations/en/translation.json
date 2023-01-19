@@ -11,5 +11,8 @@
   "standard_deviation": "Standard Deviation",
   "github_link": "Project's GitHub Link",
   "ideal_line": "Ideal Curve",
-  "calculations": "Calculations"
+  "calculations": "Calculations",
+  "dice_sum_probabilities": "Dice Sum Probabilities",
+  "normal_distribution_curve": "Normal Distribution Curve",
+  "normal_distribution_header": "Normal (Gaussian) Distribution 📊 With Dice Rolls 🎲"
 }
